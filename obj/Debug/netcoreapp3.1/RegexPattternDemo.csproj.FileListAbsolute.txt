@@ -1,0 +1,13 @@
+D:\Visual_Studio\RegexPattternDemo\bin\Debug\netcoreapp3.1\RegexPattternDemo.exe
+D:\Visual_Studio\RegexPattternDemo\bin\Debug\netcoreapp3.1\RegexPattternDemo.deps.json
+D:\Visual_Studio\RegexPattternDemo\bin\Debug\netcoreapp3.1\RegexPattternDemo.runtimeconfig.json
+D:\Visual_Studio\RegexPattternDemo\bin\Debug\netcoreapp3.1\RegexPattternDemo.runtimeconfig.dev.json
+D:\Visual_Studio\RegexPattternDemo\bin\Debug\netcoreapp3.1\RegexPattternDemo.dll
+D:\Visual_Studio\RegexPattternDemo\bin\Debug\netcoreapp3.1\RegexPattternDemo.pdb
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.csprojAssemblyReference.cache
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.AssemblyInfoInputs.cache
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.AssemblyInfo.cs
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.dll
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.pdb
+D:\Visual_Studio\RegexPattternDemo\obj\Debug\netcoreapp3.1\RegexPattternDemo.genruntimeconfig.cache
