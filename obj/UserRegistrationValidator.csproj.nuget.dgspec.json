@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual_Studio\\RegexPattternDemo\\UserRegistrationValidator.csproj": {}
+    "D:\\Visual_Studio\\UserRegistration\\UserRegistrationValidator.csproj": {}
   },
   "projects": {
-    "D:\\Visual_Studio\\RegexPattternDemo\\UserRegistrationValidator.csproj": {
+    "D:\\Visual_Studio\\UserRegistration\\UserRegistrationValidator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual_Studio\\RegexPattternDemo\\UserRegistrationValidator.csproj",
+        "projectUniqueName": "D:\\Visual_Studio\\UserRegistration\\UserRegistrationValidator.csproj",
         "projectName": "UserRegistrationValidator",
-        "projectPath": "D:\\Visual_Studio\\RegexPattternDemo\\UserRegistrationValidator.csproj",
+        "projectPath": "D:\\Visual_Studio\\UserRegistration\\UserRegistrationValidator.csproj",
         "packagesPath": "C:\\Users\\new\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual_Studio\\RegexPattternDemo\\obj\\",
+        "outputPath": "D:\\Visual_Studio\\UserRegistration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\new\\AppData\\Roaming\\NuGet\\NuGet.Config",

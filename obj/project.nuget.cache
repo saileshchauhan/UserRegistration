@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "heg/5amwol1dfGFjmEVZODDxEg4dt3NCWwSlk8f1aOo+qUq7fvIDcN9VBow8X5tgK8UDtn0dUgqeWvJmnMuRRw==",
+  "dgSpecHash": "IItiUg1a5OnJtS4adEIoAUzysWiMufruxs4H+g0I0hgRXGjoIeP8nxhMrVYHca0zevZW10DJTyJ/RK9sYalY0g==",
   "success": true,
-  "projectFilePath": "D:\\Visual_Studio\\RegexPattternDemo\\UserRegistrationValidator.csproj",
+  "projectFilePath": "D:\\Visual_Studio\\UserRegistration\\UserRegistrationValidator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

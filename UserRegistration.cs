@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace RegexPattern
 {
     class UserRegistration
@@ -17,14 +18,14 @@ namespace RegexPattern
 
                 bool resultLastName = pattern.ValidateLastName("Mayawati");
                 Console.WriteLine("LastName Validation Result  " + resultLastName);
-                //abc.100@abc.com.au
-                //abc.a@bridgelabz.co.in
-                bool resultEmail = pattern.ValidateEmail("abc.100@abc.com.au");
-                Console.WriteLine("Email Validation Result  " + resultEmail);
+
+                //The parameters for ValidateEmail is in separate class EmailSampleFile
+                EmailSampleFile emailsample = new EmailSampleFile();
+                emailsample.ValidateEmail();
 
                 bool resultMobileFormat = pattern.ValidateMobileFormat("+91 8956231456");
                 Console.WriteLine("MobileFormat Validation Result  " + resultMobileFormat);
-                //
+                
                 bool resultPassword = pattern.CatchInValidatePassword("Sunderddd68eeeWWQW");
                 resultPassword =! resultPassword;
                 Console.WriteLine("Password Validation Result  " + resultPassword);

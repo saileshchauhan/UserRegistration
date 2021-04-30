@@ -1,0 +1,13 @@
+D:\Visual_Studio\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistrationValidator.exe
+D:\Visual_Studio\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistrationValidator.deps.json
+D:\Visual_Studio\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistrationValidator.runtimeconfig.json
+D:\Visual_Studio\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistrationValidator.runtimeconfig.dev.json
+D:\Visual_Studio\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistrationValidator.dll
+D:\Visual_Studio\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistrationValidator.pdb
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.csprojAssemblyReference.cache
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.AssemblyInfoInputs.cache
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.AssemblyInfo.cs
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.dll
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.pdb
+D:\Visual_Studio\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistrationValidator.genruntimeconfig.cache
