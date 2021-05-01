@@ -1,35 +1,33 @@
 ﻿using System;
 
 
-namespace RegexPattern
+namespace UserRegistrationValidator
 {
     class UserRegistration
     {
         static void Main(string[] args)
         {
             {
-                Pattern pattern = new Pattern();
-                
-                bool resultPin = pattern.ValidatePinCode("460556");
-                Console.WriteLine("Pin Validation Result  "+ resultPin);
+                Pattern pattern = new Pattern(string.Empty);
 
-                bool resultFirstName = pattern.ValidateFirstName("Sunder");
-                Console.WriteLine("FirstName Validation Result  " + resultFirstName);
+                //Implemented try and catch custom exception
+                pattern.ValidatePinCode(pattern.message);
 
-                bool resultLastName = pattern.ValidateLastName("Mayawati");
-                Console.WriteLine("LastName Validation Result  " + resultLastName);
+                //Implemented try and catch custom exception
+                pattern.ValidateFirstName(pattern.message);
+
+                pattern.ValidateLastName("Mayawati");
 
                 //The parameters for ValidateEmail is in separate class EmailSampleFile
                 EmailSampleFile emailsample = new EmailSampleFile();
                 emailsample.ValidateEmail();
 
-                bool resultMobileFormat = pattern.ValidateMobileFormat("+91 8956231456");
-                Console.WriteLine("MobileFormat Validation Result  " + resultMobileFormat);
-                
-                bool resultPassword = pattern.CatchInValidatePassword("Sunderddd68eeeWWQW");
-                resultPassword =! resultPassword;
-                Console.WriteLine("Password Validation Result  " + resultPassword);
+                pattern.ValidateMobileFormat("+91 8956231456");
 
+                pattern.CatchInValidatePassword("Sunder@123");
+
+                //Implementing Reflection for Pattern class
+                ReflectionInUserRegistration.Reflection();
 
                 Console.ReadKey();
             }
