@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace RegexPattern
 {
-    class Pattern
+    public class Pattern
     {
         const string REGEX_PASSWORD = "^(.{0,7}|[^0-9]*|[^A-Z]*|[^a-z]*|[a-zA-Z0-9]*)$";
         const string REGEX_MOBILE="^[+][0-9]{1,3}[ ][1-9]{1}[0-9]{9}$";
@@ -13,30 +13,96 @@ namespace RegexPattern
         const string REGEX_LASTNAME = "^[A-Z]{1}[a-z]{2,}$";
         const string REGEX_FIRSTNAME = "^[A-Z]{1}[a-z]{2,}$";
         const string REGEX_PINCODE = "^[1-9]{1}[0-9]{2,2}[ ]?[0-9]{3}$";
-
-        public bool ValidatePinCode(string pincode)
+        public string message;
+        //constructor for creating empty string object 
+        public Pattern(string message)
         {
-            return Regex.IsMatch(pincode, REGEX_PINCODE);
+            this.message = message;
         }
-        public bool ValidateFirstName(string FirstName)
+        //Costum Exception Implemented
+        public void ValidatePinCode(string pincode)
         {
-            return Regex.IsMatch(FirstName, REGEX_FIRSTNAME);
+            try
+            {
+                if (pincode.Equals(string.Empty))
+                    throw new Exception("Your Entered Pincode is empty");
+                bool result = (Regex.IsMatch(pincode, REGEX_PINCODE));
+                Console.WriteLine(result);
+            }catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
         }
-        public bool ValidateLastName(string LastName)
+        public void ValidateFirstName(string FirstName)
         {
-            return Regex.IsMatch(LastName, REGEX_LASTNAME);
+            try
+            {
+                if (FirstName.Equals(string.Empty))
+                    throw new Exception("Your Entered FirstName is empty");
+                bool result = Regex.IsMatch(FirstName, REGEX_FIRSTNAME);
+                Console.WriteLine(result);
+            }catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
-        public bool ValidateEmail(string Email)
+        
+        public void ValidateLastName(string LastName)
         {
-            return Regex.IsMatch(Email, REGEX_EMAIL);
+            try
+            {
+                if (LastName.Equals(string.Empty))
+                    throw new Exception("Your Entered LastName is empty");
+                bool result = Regex.IsMatch(LastName, REGEX_LASTNAME);
+                Console.WriteLine(result);
+            }
+            catch (Exception e) 
+            {
+                Console.WriteLine(e.Message);
+            }
         }
-        public bool ValidateMobileFormat(string Format)
+        public void ValidateEmail(string Email)
         {
-            return Regex.IsMatch(Format, REGEX_MOBILE);
+            try
+            {
+                if (Email.Equals(string.Empty))
+                    throw new Exception("Your Entered Email is empty");
+                bool result = Regex.IsMatch(Email, REGEX_EMAIL);
+                Console.WriteLine(result);
+            }catch (Exception e) 
+            {
+                Console.WriteLine(e.Message);
+            }
         }
-        public bool CatchInValidatePassword(string Password)
+        public void ValidateMobileFormat(string MobileNumber)
         {
-            return Regex.IsMatch(Password, REGEX_PASSWORD);
+            try
+            {
+                if (MobileNumber.Equals(string.Empty))
+                    throw new Exception("Your Entered Mobile Number is empty");
+                bool result = Regex.IsMatch(MobileNumber, REGEX_MOBILE);
+                Console.WriteLine(result);
+            }
+            catch (Exception e) 
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+        public void CatchInValidatePassword(string Password)
+        {
+            try
+            {
+                if (Password.Equals(string.Empty))
+                    throw new Exception("Your Entered Password is empty");
+                bool result = Regex.IsMatch(Password, REGEX_PASSWORD);
+                result = !result;
+                Console.WriteLine(result);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

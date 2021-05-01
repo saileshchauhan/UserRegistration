@@ -1,0 +1,16 @@
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\UserRegistrationValidator.exe
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\UserRegistrationValidator.deps.json
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\UserRegistrationValidator.runtimeconfig.json
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\UserRegistrationValidator.runtimeconfig.dev.json
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\UserRegistrationValidator.dll
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\ref\UserRegistrationValidator.dll
+D:\Visual_Studio\UserRegistration\bin\Debug\net5.0\UserRegistrationValidator.pdb
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.csprojAssemblyReference.cache
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.AssemblyInfoInputs.cache
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.AssemblyInfo.cs
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.dll
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\ref\UserRegistrationValidator.dll
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.pdb
+D:\Visual_Studio\UserRegistration\obj\Debug\net5.0\UserRegistrationValidator.genruntimeconfig.cache

@@ -17,7 +17,7 @@ namespace RegexPattern
 
         
         public void ValidateEmail()
-        {
+        {   
             foreach (var Email in validEmails)
             {
                 Console.WriteLine("ValidEmail Samples  "+Regex.IsMatch(Email, REGEX_EMAIL));
