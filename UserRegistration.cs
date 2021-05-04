@@ -8,23 +8,27 @@ namespace UserRegistrationValidator
         static void Main(string[] args)
         {
             {
-                Pattern pattern = new Pattern(string.Empty);
+                Pattern pattern = new Pattern();
 
-                //Implemented try and catch custom exception
-                pattern.ValidatePinCode(pattern.message);
+               
+                bool resultOfPincode=pattern.ValidatePinCode("460551");
+                Console.WriteLine("resultOfPincode   "+resultOfPincode);
 
-                //Implemented try and catch custom exception
-                pattern.ValidateFirstName(pattern.message);
+                bool resultOfFirstName= pattern.ValidateFirstName("Sailesh");
+                Console.WriteLine("resultOfFirstName  "+resultOfFirstName);
 
-                pattern.ValidateLastName("Mayawati");
+                bool resultOfLastName=pattern.ValidateLastName("Chauhan");
+                Console.WriteLine("resultOfLastName   "+resultOfLastName);
 
                 //The parameters for ValidateEmail is in separate class EmailSampleFile
                 EmailSampleFile emailsample = new EmailSampleFile();
                 emailsample.ValidateEmail();
 
-                pattern.ValidateMobileFormat("+91 8956231456");
+                bool resultOfMobileFormat=pattern.ValidateMobileFormat("+91 8956231456");
+                Console.WriteLine("resultOfMobileFormat "+resultOfMobileFormat);
 
-                pattern.CatchInValidatePassword("Sunder@123");
+                bool resultOfInvalidatePassword=pattern.CatchInValidatePassword("Sunder@123");
+                Console.WriteLine("resultOfPassword     "+resultOfInvalidatePassword);
 
                 //Implementing Reflection for Pattern class
                 ReflectionInUserRegistration.Reflection();
